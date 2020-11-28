@@ -31,7 +31,7 @@ public class StringCalculator {
     public int add(String[] numbers) throws Exception{
         forNegatives(numbers);
         return calculateValues(numbers);
-    }
+    } 
     
     private int calculateValues(String[] numbers){
          int sum=0;
