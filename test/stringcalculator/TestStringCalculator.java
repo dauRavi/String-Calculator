@@ -30,7 +30,7 @@ public class TestStringCalculator {
     public void forSingleValue() throws Exception{
         assertEquals(calculator.calculate("1"), 1);
     }
-    
+     
     public void forTwoNumbersCommaDelimiter() throws Exception{
         assertEquals(calculator.calculate("1,2"), 3);
     }
